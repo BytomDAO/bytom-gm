@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bytom/errors"
-	"github.com/bytom/protocol/bc"
-	"github.com/bytom/protocol/bc/types"
-	"github.com/bytom/protocol/vm"
+	"github.com/bytom-gm/errors"
+	"github.com/bytom-gm/protocol/bc"
+	"github.com/bytom-gm/protocol/bc/types"
+	"github.com/bytom-gm/protocol/vm"
 )
 
 func TestCheckOutput(t *testing.T) {

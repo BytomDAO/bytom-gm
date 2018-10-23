@@ -14,7 +14,7 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/bytom/crypto/sm3"
+	"github.com/bytom-gm/crypto/sm3"
 )
 
 const (

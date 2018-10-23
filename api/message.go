@@ -5,12 +5,12 @@ import (
 	"encoding/hex"
 	"strings"
 
-	"github.com/bytom/blockchain/signers"
-	"github.com/bytom/common"
-	"github.com/bytom/consensus"
-	"github.com/bytom/crypto"
-	"github.com/bytom/crypto/sm2"
-	"github.com/bytom/crypto/sm2/chainkd"
+	"github.com/bytom-gm/blockchain/signers"
+	"github.com/bytom-gm/common"
+	"github.com/bytom-gm/consensus"
+	"github.com/bytom-gm/crypto"
+	"github.com/bytom-gm/crypto/sm2"
+	"github.com/bytom-gm/crypto/sm2/chainkd"
 )
 
 // SignMsgResp is response for sign message

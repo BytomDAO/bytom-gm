@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/bytom/config"
-	"github.com/bytom/protocol/bc"
-	"github.com/bytom/protocol/bc/types"
+	"github.com/bytom-gm/config"
+	"github.com/bytom-gm/protocol/bc"
+	"github.com/bytom-gm/protocol/bc/types"
 
 	dbm "github.com/tendermint/tmlibs/db"
 )

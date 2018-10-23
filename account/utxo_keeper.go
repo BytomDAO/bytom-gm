@@ -11,8 +11,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	dbm "github.com/tendermint/tmlibs/db"
 
-	"github.com/bytom/errors"
-	"github.com/bytom/protocol/bc"
+	"github.com/bytom-gm/errors"
+	"github.com/bytom-gm/protocol/bc"
 )
 
 const desireUtxoCount = 5

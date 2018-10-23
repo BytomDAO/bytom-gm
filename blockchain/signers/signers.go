@@ -6,8 +6,8 @@ import (
 	"encoding/binary"
 	"sort"
 
-	"github.com/bytom/crypto/sm2/chainkd"
-	"github.com/bytom/errors"
+	"github.com/bytom-gm/crypto/sm2/chainkd"
+	"github.com/bytom-gm/errors"
 )
 
 type keySpace byte

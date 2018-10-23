@@ -6,8 +6,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/bytom/protocol/bc"
-	"github.com/bytom/protocol/bc/types"
+	"github.com/bytom-gm/protocol/bc"
+	"github.com/bytom-gm/protocol/bc/types"
 )
 
 var (

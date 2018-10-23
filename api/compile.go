@@ -3,9 +3,9 @@ package api
 import (
 	"strings"
 
-	chainjson "github.com/bytom/encoding/json"
-	"github.com/bytom/equity/compiler"
-	"github.com/bytom/protocol/vm"
+	chainjson "github.com/bytom-gm/encoding/json"
+	"github.com/bytom-gm/equity/compiler"
+	"github.com/bytom-gm/protocol/vm"
 )
 
 type (

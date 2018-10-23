@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/bytom/crypto/sm3"
-	"github.com/bytom/encoding/blockchain"
-	"github.com/bytom/errors"
-	"github.com/bytom/protocol/bc"
+	"github.com/bytom-gm/crypto/sm3"
+	"github.com/bytom-gm/encoding/blockchain"
+	"github.com/bytom-gm/errors"
+	"github.com/bytom-gm/protocol/bc"
 )
 
 // OutputCommitment contains the commitment data for a transaction output.

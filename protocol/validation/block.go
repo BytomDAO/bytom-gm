@@ -3,12 +3,12 @@ package validation
 import (
 	"time"
 
-	"github.com/bytom/consensus"
-	"github.com/bytom/consensus/difficulty"
-	"github.com/bytom/errors"
-	"github.com/bytom/protocol/bc"
-	"github.com/bytom/protocol/bc/types"
-	"github.com/bytom/protocol/state"
+	"github.com/bytom-gm/consensus"
+	"github.com/bytom-gm/consensus/difficulty"
+	"github.com/bytom-gm/errors"
+	"github.com/bytom-gm/protocol/bc"
+	"github.com/bytom-gm/protocol/bc/types"
+	"github.com/bytom-gm/protocol/state"
 )
 
 var (

@@ -9,8 +9,8 @@ import (
 
 	"encoding/hex"
 
-	"github.com/bytom/crypto/sm2/chainkd"
-	"github.com/bytom/util"
+	"github.com/bytom-gm/crypto/sm2/chainkd"
+	"github.com/bytom-gm/util"
 )
 
 func init() {

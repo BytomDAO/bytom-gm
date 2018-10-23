@@ -3,7 +3,7 @@ package main
 import (
 	"runtime"
 
-	cmd "github.com/bytom/cmd/bytomcli/commands"
+	cmd "github.com/bytom-gm/cmd/bytomcli/commands"
 )
 
 func main() {

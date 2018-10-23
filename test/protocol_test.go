@@ -8,9 +8,9 @@ import (
 
 	dbm "github.com/tendermint/tmlibs/db"
 
-	"github.com/bytom/consensus"
-	"github.com/bytom/protocol/bc/types"
-	"github.com/bytom/protocol/vm"
+	"github.com/bytom-gm/consensus"
+	"github.com/bytom-gm/protocol/bc/types"
+	"github.com/bytom-gm/protocol/vm"
 )
 
 // case1:           |------c1(height=7)

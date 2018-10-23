@@ -3,7 +3,7 @@ package commands
 import (
 	"fmt"
 
-	"github.com/bytom/errors"
+	"github.com/bytom-gm/errors"
 )
 
 const (

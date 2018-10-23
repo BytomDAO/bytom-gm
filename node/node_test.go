@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	cfg "github.com/bytom/config"
+	cfg "github.com/bytom-gm/config"
 )
 
 func TestNodeUsedDataDir(t *testing.T) {

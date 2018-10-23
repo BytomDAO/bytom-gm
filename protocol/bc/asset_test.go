@@ -3,7 +3,7 @@ package bc
 import (
 	"testing"
 
-	"github.com/bytom/crypto/sm3"
+	"github.com/bytom-gm/crypto/sm3"
 )
 
 func TestComputeAssetID(t *testing.T) {

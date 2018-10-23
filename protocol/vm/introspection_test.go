@@ -5,8 +5,8 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/bytom/errors"
-	"github.com/bytom/testutil"
+	"github.com/bytom-gm/errors"
+	"github.com/bytom-gm/testutil"
 )
 
 func TestOutputIDAndNonceOp(t *testing.T) {

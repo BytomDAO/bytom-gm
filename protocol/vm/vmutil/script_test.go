@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/bytom/protocol/vm"
-	"github.com/bytom/testutil"
+	"github.com/bytom-gm/protocol/vm"
+	"github.com/bytom-gm/testutil"
 )
 
 // TestIsUnspendable ensures the IsUnspendable function returns the expected

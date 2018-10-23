@@ -10,11 +10,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/bytom/crypto/sm2/chainkd"
-	"github.com/bytom/errors"
-	"github.com/bytom/math/checked"
-	"github.com/bytom/protocol/bc"
-	"github.com/bytom/protocol/bc/types"
+	"github.com/bytom-gm/crypto/sm2/chainkd"
+	"github.com/bytom-gm/errors"
+	"github.com/bytom-gm/math/checked"
+	"github.com/bytom-gm/protocol/bc"
+	"github.com/bytom-gm/protocol/bc/types"
 )
 
 // errors

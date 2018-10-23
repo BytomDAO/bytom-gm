@@ -9,15 +9,15 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/bytom/account"
-	"github.com/bytom/blockchain/txbuilder"
-	"github.com/bytom/consensus"
-	"github.com/bytom/consensus/segwit"
-	"github.com/bytom/errors"
-	"github.com/bytom/math/checked"
-	"github.com/bytom/net/http/reqid"
-	"github.com/bytom/protocol/bc"
-	"github.com/bytom/protocol/bc/types"
+	"github.com/bytom-gm/account"
+	"github.com/bytom-gm/blockchain/txbuilder"
+	"github.com/bytom-gm/consensus"
+	"github.com/bytom-gm/consensus/segwit"
+	"github.com/bytom-gm/errors"
+	"github.com/bytom-gm/math/checked"
+	"github.com/bytom-gm/net/http/reqid"
+	"github.com/bytom-gm/protocol/bc"
+	"github.com/bytom-gm/protocol/bc/types"
 )
 
 var (

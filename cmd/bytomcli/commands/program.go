@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/bytom/util"
+	"github.com/bytom-gm/util"
 )
 
 var decodeProgCmd = &cobra.Command{

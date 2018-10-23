@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/bytom/consensus"
-	"github.com/bytom/consensus/segwit"
-	"github.com/bytom/errors"
-	"github.com/bytom/math/checked"
-	"github.com/bytom/protocol/bc"
-	"github.com/bytom/protocol/vm"
+	"github.com/bytom-gm/consensus"
+	"github.com/bytom-gm/consensus/segwit"
+	"github.com/bytom-gm/errors"
+	"github.com/bytom-gm/math/checked"
+	"github.com/bytom-gm/protocol/bc"
+	"github.com/bytom-gm/protocol/vm"
 )
 
 // validate transaction error

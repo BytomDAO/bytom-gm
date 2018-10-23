@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/bytom/crypto/sm3"
+	"github.com/bytom-gm/crypto/sm3"
 )
 
 // EmptyStringHash represents a 256-bit hash.

@@ -18,10 +18,10 @@ import (
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"
 
-	"github.com/bytom/crypto"
-	"github.com/bytom/crypto/randentropy"
-	"github.com/bytom/crypto/sm2/chainkd"
-	"github.com/bytom/crypto/sm4"
+	"github.com/bytom-gm/crypto"
+	"github.com/bytom-gm/crypto/randentropy"
+	"github.com/bytom-gm/crypto/sm2/chainkd"
+	"github.com/bytom-gm/crypto/sm4"
 	"github.com/pborman/uuid"
 )
 

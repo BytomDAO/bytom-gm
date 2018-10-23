@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"context"
 
-	cfg "github.com/bytom/config"
-	"github.com/bytom/consensus"
-	"github.com/bytom/errors"
-	"github.com/bytom/protocol"
-	"github.com/bytom/protocol/bc/types"
-	"github.com/bytom/protocol/vm"
+	cfg "github.com/bytom-gm/config"
+	"github.com/bytom-gm/consensus"
+	"github.com/bytom-gm/errors"
+	"github.com/bytom-gm/protocol"
+	"github.com/bytom-gm/protocol/bc/types"
+	"github.com/bytom-gm/protocol/vm"
 )
 
 var (

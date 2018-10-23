@@ -9,12 +9,12 @@ import (
 	log "github.com/sirupsen/logrus"
 	dbm "github.com/tendermint/tmlibs/db"
 
-	"github.com/bytom/blockchain/query"
-	"github.com/bytom/errors"
-	"github.com/bytom/protocol"
-	"github.com/bytom/protocol/bc"
-	"github.com/bytom/protocol/bc/types"
-	"github.com/bytom/protocol/vm/vmutil"
+	"github.com/bytom-gm/blockchain/query"
+	"github.com/bytom-gm/errors"
+	"github.com/bytom-gm/protocol"
+	"github.com/bytom-gm/protocol/bc"
+	"github.com/bytom-gm/protocol/bc/types"
+	"github.com/bytom-gm/protocol/vm/vmutil"
 )
 
 const (

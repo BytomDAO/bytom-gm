@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/bytom/consensus"
-	"github.com/bytom/protocol/bc"
-	"github.com/bytom/protocol/bc/types"
+	"github.com/bytom-gm/consensus"
+	"github.com/bytom-gm/protocol/bc"
+	"github.com/bytom-gm/protocol/bc/types"
 )
 
 // A lower difficulty Int actually reflects a more difficult mining progress.
