@@ -3,10 +3,10 @@ package state
 import (
 	"testing"
 
-	"github.com/bytom/consensus"
-	"github.com/bytom/database/storage"
-	"github.com/bytom/protocol/bc"
-	"github.com/bytom/testutil"
+	"github.com/bytom-gm/consensus"
+	"github.com/bytom-gm/database/storage"
+	"github.com/bytom-gm/protocol/bc"
+	"github.com/bytom-gm/testutil"
 )
 
 var defaultEntry = map[bc.Hash]bc.Entry{

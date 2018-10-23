@@ -5,12 +5,12 @@ import (
 
 	"gopkg.in/fatih/set.v0"
 
-	"github.com/bytom/blockchain/query"
-	"github.com/bytom/consensus/difficulty"
-	chainjson "github.com/bytom/encoding/json"
-	"github.com/bytom/errors"
-	"github.com/bytom/protocol/bc"
-	"github.com/bytom/protocol/bc/types"
+	"github.com/bytom-gm/blockchain/query"
+	"github.com/bytom-gm/consensus/difficulty"
+	chainjson "github.com/bytom-gm/encoding/json"
+	"github.com/bytom-gm/errors"
+	"github.com/bytom-gm/protocol/bc"
+	"github.com/bytom-gm/protocol/bc/types"
 )
 
 // return best block hash

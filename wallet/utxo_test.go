@@ -8,11 +8,11 @@ import (
 
 	dbm "github.com/tendermint/tmlibs/db"
 
-	"github.com/bytom/account"
-	"github.com/bytom/consensus"
-	"github.com/bytom/protocol/bc"
-	"github.com/bytom/protocol/bc/types"
-	"github.com/bytom/testutil"
+	"github.com/bytom-gm/account"
+	"github.com/bytom-gm/consensus"
+	"github.com/bytom-gm/protocol/bc"
+	"github.com/bytom-gm/protocol/bc/types"
+	"github.com/bytom-gm/testutil"
 )
 
 func TestGetAccountUtxos(t *testing.T) {

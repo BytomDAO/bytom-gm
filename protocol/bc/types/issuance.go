@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/bytom/crypto/sm3"
-	"github.com/bytom/protocol/bc"
+	"github.com/bytom-gm/crypto/sm3"
+	"github.com/bytom-gm/protocol/bc"
 )
 
 // IssuanceInput satisfies the TypedInput interface and represents a issuance.

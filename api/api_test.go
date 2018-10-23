@@ -10,11 +10,11 @@ import (
 
 	dbm "github.com/tendermint/tmlibs/db"
 
-	"github.com/bytom/accesstoken"
-	"github.com/bytom/blockchain/rpc"
-	"github.com/bytom/blockchain/txbuilder"
-	"github.com/bytom/consensus"
-	"github.com/bytom/testutil"
+	"github.com/bytom-gm/accesstoken"
+	"github.com/bytom-gm/blockchain/rpc"
+	"github.com/bytom-gm/blockchain/txbuilder"
+	"github.com/bytom-gm/consensus"
+	"github.com/bytom-gm/testutil"
 )
 
 func TestAPIHandler(t *testing.T) {

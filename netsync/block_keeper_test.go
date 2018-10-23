@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bytom/consensus"
-	"github.com/bytom/errors"
-	"github.com/bytom/protocol/bc"
-	"github.com/bytom/protocol/bc/types"
-	"github.com/bytom/test/mock"
-	"github.com/bytom/testutil"
+	"github.com/bytom-gm/consensus"
+	"github.com/bytom-gm/errors"
+	"github.com/bytom-gm/protocol/bc"
+	"github.com/bytom-gm/protocol/bc/types"
+	"github.com/bytom-gm/test/mock"
+	"github.com/bytom-gm/testutil"
 )
 
 func TestAppendHeaderList(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bytom/accesstoken"
-	"github.com/bytom/errors"
+	"github.com/bytom-gm/accesstoken"
+	"github.com/bytom-gm/errors"
 )
 
 const tokenExpiry = time.Minute * 5

@@ -7,11 +7,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/bytom/account"
-	"github.com/bytom/common"
-	"github.com/bytom/consensus"
-	"github.com/bytom/crypto/sm2/chainkd"
-	"github.com/bytom/protocol/vm/vmutil"
+	"github.com/bytom-gm/account"
+	"github.com/bytom-gm/common"
+	"github.com/bytom-gm/consensus"
+	"github.com/bytom-gm/crypto/sm2/chainkd"
+	"github.com/bytom-gm/protocol/vm/vmutil"
 )
 
 // POST /create-account

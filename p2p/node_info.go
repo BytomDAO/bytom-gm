@@ -7,7 +7,7 @@ import (
 
 	crypto "github.com/tendermint/go-crypto"
 
-	"github.com/bytom/version"
+	"github.com/bytom-gm/version"
 )
 
 const maxNodeInfoSize = 10240 // 10Kb

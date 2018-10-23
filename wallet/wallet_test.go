@@ -8,16 +8,16 @@ import (
 
 	dbm "github.com/tendermint/tmlibs/db"
 
-	"github.com/bytom/account"
-	"github.com/bytom/asset"
-	"github.com/bytom/blockchain/pseudohsm"
-	"github.com/bytom/blockchain/txbuilder"
-	"github.com/bytom/consensus"
-	"github.com/bytom/crypto/sm2/chainkd"
-	"github.com/bytom/database/leveldb"
-	"github.com/bytom/protocol"
-	"github.com/bytom/protocol/bc"
-	"github.com/bytom/protocol/bc/types"
+	"github.com/bytom-gm/account"
+	"github.com/bytom-gm/asset"
+	"github.com/bytom-gm/blockchain/pseudohsm"
+	"github.com/bytom-gm/blockchain/txbuilder"
+	"github.com/bytom-gm/consensus"
+	"github.com/bytom-gm/crypto/sm2/chainkd"
+	"github.com/bytom-gm/database/leveldb"
+	"github.com/bytom-gm/protocol"
+	"github.com/bytom-gm/protocol/bc"
+	"github.com/bytom-gm/protocol/bc/types"
 )
 
 func TestWalletUpdate(t *testing.T) {

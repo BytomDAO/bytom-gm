@@ -5,7 +5,7 @@ import (
 	"crypto/sha512"
 	"math/big"
 
-	"github.com/bytom/crypto/sm2"
+	"github.com/bytom-gm/crypto/sm2"
 )
 
 type (

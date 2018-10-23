@@ -7,12 +7,12 @@ import (
 
 	dbm "github.com/tendermint/tmlibs/db"
 
-	"github.com/bytom/account"
-	"github.com/bytom/blockchain/pseudohsm"
-	"github.com/bytom/crypto/sm2/chainkd"
-	"github.com/bytom/protocol/bc/types"
-	"github.com/bytom/protocol/validation"
-	"github.com/bytom/test"
+	"github.com/bytom-gm/account"
+	"github.com/bytom-gm/blockchain/pseudohsm"
+	"github.com/bytom-gm/crypto/sm2/chainkd"
+	"github.com/bytom-gm/protocol/bc/types"
+	"github.com/bytom-gm/protocol/validation"
+	"github.com/bytom-gm/test"
 )
 
 func TestP2PKH(t *testing.T) {

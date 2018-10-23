@@ -9,13 +9,13 @@ import (
 
 	dbm "github.com/tendermint/tmlibs/db"
 
-	"github.com/bytom/account"
-	"github.com/bytom/asset"
-	"github.com/bytom/blockchain/pseudohsm"
-	"github.com/bytom/crypto/sm2/chainkd"
-	"github.com/bytom/protocol"
-	"github.com/bytom/protocol/bc/types"
-	w "github.com/bytom/wallet"
+	"github.com/bytom-gm/account"
+	"github.com/bytom-gm/asset"
+	"github.com/bytom-gm/blockchain/pseudohsm"
+	"github.com/bytom-gm/crypto/sm2/chainkd"
+	"github.com/bytom-gm/protocol"
+	"github.com/bytom-gm/protocol/bc/types"
+	w "github.com/bytom-gm/wallet"
 )
 
 type walletTestConfig struct {

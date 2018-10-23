@@ -4,8 +4,8 @@ import (
 	"golang.org/x/crypto/ripemd160"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/bytom/common"
-	"github.com/bytom/crypto/sm3"
+	"github.com/bytom-gm/common"
+	"github.com/bytom-gm/crypto/sm3"
 )
 
 func DoubleSha256(b []byte) []byte {

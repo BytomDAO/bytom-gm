@@ -8,7 +8,7 @@ import (
 
 	"strings"
 
-	"github.com/bytom/node"
+	"github.com/bytom-gm/node"
 )
 
 var runNodeCmd = &cobra.Command{

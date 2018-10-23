@@ -52,6 +52,11 @@ bytomcli:
 	@echo "Building bytomcli to cmd/bytomcli/bytomcli"
 	@go build $(BUILD_FLAGS) -o cmd/bytomcli/bytomcli cmd/bytomcli/main.go
 
+install:
+	@echo "Installing bytomd and bytomcli to $(GOPATH)/bin"
+	@go install ./cmd/bytomd
+	@go install ./cmd/bytomcli
+
 target:
 	mkdir -p $@
 
@@ -92,13 +97,13 @@ clean:
 	@rm -rf cmd/bytomcli/bytomcli
 	@rm -rf cmd/miner/miner
 	@rm -rf target
+	@rm -rf $(GOPATH)/bin/bytomd
+	@rm -rf $(GOPATH)/bin/bytomcli
 	@echo "Cleaning temp test data..."
 	@rm -rf test/pseudo_hsm*
 	@rm -rf blockchain/pseudohsm/testdata/pseudo/
 	@echo "Cleaning sm2 pem files..."
 	@rm -rf crypto/sm2/*.pem
-	@rm -rf crypto/sm2/ifile
-	@rm -rf crypto/sm2/ofile
 	@echo "Done."
 
 target/$(BYTOMD_BINARY32):

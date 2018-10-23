@@ -1,7 +1,7 @@
 package go_algorithm
 
 import (
-	"github.com/bytom/protocol/bc"
+	"github.com/bytom-gm/protocol/bc"
 )
 
 func LegacyAlgorithm(bh, seed *bc.Hash) *bc.Hash {

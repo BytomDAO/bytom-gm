@@ -3,9 +3,9 @@ package integration
 import (
 	"fmt"
 
-	cfg "github.com/bytom/config"
-	"github.com/bytom/crypto/sm2/chainkd"
-	"github.com/bytom/util"
+	cfg "github.com/bytom-gm/config"
+	"github.com/bytom-gm/crypto/sm2/chainkd"
+	"github.com/bytom-gm/util"
 )
 
 // Mock config.

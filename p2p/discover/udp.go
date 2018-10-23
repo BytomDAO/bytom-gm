@@ -12,8 +12,8 @@ import (
 	"github.com/tendermint/go-crypto"
 	"github.com/tendermint/go-wire"
 
-	"github.com/bytom/common"
-	"github.com/bytom/p2p/netutil"
+	"github.com/bytom-gm/common"
+	"github.com/bytom-gm/p2p/netutil"
 )
 
 const Version = 4

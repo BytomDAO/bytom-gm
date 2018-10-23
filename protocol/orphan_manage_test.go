@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bytom/protocol/bc"
-	"github.com/bytom/protocol/bc/types"
-	"github.com/bytom/testutil"
+	"github.com/bytom-gm/protocol/bc"
+	"github.com/bytom-gm/protocol/bc/types"
+	"github.com/bytom-gm/testutil"
 )
 
 var testBlocks = []*types.Block{

@@ -12,9 +12,9 @@ import (
 	wire "github.com/tendermint/go-wire"
 	cmn "github.com/tendermint/tmlibs/common"
 
-	cfg "github.com/bytom/config"
-	"github.com/bytom/consensus"
-	"github.com/bytom/p2p/connection"
+	cfg "github.com/bytom-gm/config"
+	"github.com/bytom-gm/consensus"
+	"github.com/bytom-gm/p2p/connection"
 )
 
 // peerConn contains the raw connection and its config.

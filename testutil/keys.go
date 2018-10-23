@@ -1,8 +1,8 @@
 package testutil
 
 import (
-	"github.com/bytom/crypto/sm2"
-	"github.com/bytom/crypto/sm2/chainkd"
+	"github.com/bytom-gm/crypto/sm2"
+	"github.com/bytom-gm/crypto/sm2/chainkd"
 )
 
 var (

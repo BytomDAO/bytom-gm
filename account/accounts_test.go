@@ -8,11 +8,11 @@ import (
 
 	dbm "github.com/tendermint/tmlibs/db"
 
-	"github.com/bytom/crypto/sm2/chainkd"
-	"github.com/bytom/database/leveldb"
-	"github.com/bytom/errors"
-	"github.com/bytom/protocol"
-	"github.com/bytom/testutil"
+	"github.com/bytom-gm/crypto/sm2/chainkd"
+	"github.com/bytom-gm/database/leveldb"
+	"github.com/bytom-gm/errors"
+	"github.com/bytom-gm/protocol"
+	"github.com/bytom-gm/testutil"
 )
 
 func TestCreateAccountWithUppercase(t *testing.T) {

@@ -3,9 +3,9 @@ package txbuilder
 import (
 	"encoding/json"
 
-	"github.com/bytom/crypto/sm2/chainkd"
-	chainjson "github.com/bytom/encoding/json"
-	"github.com/bytom/errors"
+	"github.com/bytom-gm/crypto/sm2/chainkd"
+	chainjson "github.com/bytom-gm/encoding/json"
+	"github.com/bytom-gm/errors"
 )
 
 // AddWitnessKeys adds a SignatureWitness with the given quorum and
