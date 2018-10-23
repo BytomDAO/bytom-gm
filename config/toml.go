@@ -41,7 +41,7 @@ seeds = ""
 // Select network seeds to merge a new string.
 func selectNetwork(network string) string {
 	switch network {
-	case "testnet":
+	case "gm-testnet":
 		return defaultConfigTmpl + testNetConfigTmpl
 	default:
 		return defaultConfigTmpl + soloNetConfigTmpl
