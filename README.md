@@ -72,7 +72,6 @@ $ ./bytomd init --chain_id mainnet
 
 There are three options for the flag `--chain_id`:
 
-- `mainnet`: connect to the mainnet.
 - `testnet`: connect to the testnet wisdom.
 - `solonet`: standalone mode.
 
