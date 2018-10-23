@@ -72,7 +72,7 @@ $ ./bytomd init --chain_id mainnet
 
 There are three options for the flag `--chain_id`:
 
-- `testnet`: connect to the testnet wisdom.
+- `gm-testnet`: connect to the testnet wisdom.
 - `solonet`: standalone mode.
 
 After that, you'll see `config.toml` generated, then launch the node.
